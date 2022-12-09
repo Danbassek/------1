@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --background-color: rgba(16, 21, 28, 1);
+    background-color: var(--background-color);
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+    --button-color1: rgba(250, 3, 105, 1);
+    --button-color2: rgba(255, 255, 255, 0.1);
+}
+
+.firstH2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--button-color1);
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.ablack {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--button-color2);
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.atransparent {
+
+    background-color: transparent;
+
+}
+
+h1 {
+    visibility: hidden;
+}
+
+h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    color: white;
+}
+
+h3 {
+
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+    color: white;
+}
+
+p {
+
+    color: rgba(126, 133, 151, 1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.pwhite {
+
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.pborder {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--button-color1);
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+
+}
+
+section {
+    border-radius: 2rem;
+    background-color: var(--background-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.section_color {
+    padding-top: 2rem;
+
+    background-color: white;
+}
+
+.imgbab {
+    display: block;
+}
